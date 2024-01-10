@@ -51,6 +51,7 @@ public class AuthTest {
                 .assertThat()
                     .body("books.pages[0]", equalTo(234))
                     .body("books.subTitle[0]", equalTo("A Working Introduction"))
+
                     .body("books.publisher[0]", equalTo("O'Reilly Media"));
     }
 }
