@@ -5,10 +5,14 @@
   <groupId>org.example</groupId>
   <artifactId>Demo_Tools_QA</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>Demo_Tools_QA</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>AQA-23-api-tests</module>
+    <module>AQA-23-webUi-tests</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,15 +51,13 @@
       <version>4.16.0</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>5.4.0</version>
-      <scope>test</scope>
-    </dependency>
-
-
-
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/io.rest-assured/rest-assured &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>io.rest-assured</groupId>-->
+<!--      <artifactId>rest-assured</artifactId>-->
+<!--      <version>5.4.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    -->
   </dependencies>
 </project>
