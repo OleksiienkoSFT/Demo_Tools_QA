@@ -22,7 +22,6 @@ public class AuthTest {
                 .when()
                 .get("https://demoqa.com/BookStore/v1/Books")
                 .then().log().body()
-
                 .assertThat().body("books.isbn[1]", equalTo("9781449331818"));
     }
     @Test
@@ -51,8 +50,6 @@ public class AuthTest {
                 .then().log().body()
                 .assertThat()
                     .body("books.pages[0]", equalTo(234))
-
-
                     .body("books.subTitle[0]", equalTo("A Working Introduction"))
                     .body("books.publisher[0]", equalTo("O'Reilly Media"));
     }

@@ -5,10 +5,15 @@
   <groupId>org.example</groupId>
   <artifactId>Demo_Tools_QA</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>Demo_Tools_QA</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>AQA-23-web-ui</module>
+      <module>AQA-23-api-tests</module>
+    <module>AQA-23-webUi-tests</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
