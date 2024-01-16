@@ -1,4 +1,4 @@
-package utils;
+package org.example.utils;
 
 public class TestUsers {
     public  static final  String BASE_USER_NAME = "StasUser1";

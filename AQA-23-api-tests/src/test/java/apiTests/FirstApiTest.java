@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class AuthTest {
+public class FirstApiTest {
 
     @Test
     public void simpleTestStatusCode (){
