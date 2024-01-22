@@ -55,6 +55,26 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20231013</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.savoirtech.json/json-comparator -->
+    <dependency>
+      <groupId>com.savoirtech.json</groupId>
+      <artifactId>json-comparator</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.skyscreamer/jsonassert -->
+    <dependency>
+      <groupId>org.skyscreamer</groupId>
+      <artifactId>jsonassert</artifactId>
+      <version>1.5.1</version>
+      <scope>test</scope>
+    </dependency>
 
 
   </dependencies>
