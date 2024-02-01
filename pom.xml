@@ -5,10 +5,14 @@
   <groupId>org.example</groupId>
   <artifactId>Demo_Tools_QA</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>Demo_Tools_QA</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>AQA-23-playWrite</module>
+      <module>AutoTests</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,7 +36,7 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.16.1</version>
+      <version>4.1.0</version>
     </dependency>
 
     <dependency>
@@ -74,6 +78,12 @@
       <artifactId>jsonassert</artifactId>
       <version>1.5.1</version>
       <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
+    <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>1.41.1</version>
     </dependency>
 
 
